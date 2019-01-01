@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">ClientPortal</string>
+
+
+    <string-array name="spinner_array">
+        <item>Shipping Name</item>
+        <item>Product</item>
+        <item>Order</item>
+        <item>Employees Order</item>
+        <item>Tracking Number</item>
+        <item>Box/Master Box</item>
+        <item>Package</item>
+
+    </string-array>
+
+    <string-array name="nav_item_activity_titles">
+
+        <item> Deliveries </item>
+        <item>Deliveries By Items</item>
+        <item>Customer List Items</item>
+        <item>InActive Items</item>
+        <item>Inventory Logs</item>
+
+        <item>Orders </item>
+        <item>Special Program Orders</item>
+        <item>Problem Order</item>
+        <item>Create Order</item>
+        <item>Filter Order</item>
+
+        <item>Sales By Item</item>
+        <item>Sales Date Range</item>
+
+        <item>Invoices SKU</item>
+        <item>Fulfilment Services</item>
+        <item>Shipping</item>
+        <item>Report By Date Range</item>
+
+        <item>Customer Details</item>
+        <item>Offices</item>
+        <item>Users</item>
+        <item>Packages</item>
+
+    </string-array>
+
+    <string-array name="Order_type">
+        <item>Field Office Delivery</item>
+        <item>Ship To</item>
+        <item>VIP Delivery</item>
+    </string-array>
+
+    <string-array name="User_activated">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+
+
+
+
+</resources>

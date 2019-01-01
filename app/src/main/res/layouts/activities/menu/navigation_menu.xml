@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="Inventory Deleveries">
+            <menu>
+                <group
+                    android:id="@+id/group1"
+                    android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_inventories_deliveries"
+                        android:title="@string/nav_inventories_deliveries" />
+
+                    <item
+                        android:id="@+id/nav_inventories_deliveries_by_item"
+                        android:title="@string/nav_inventories_deliveries_by_item" />
+
+                      </group>
+
+            </menu>
+
+        </item>
+
+        <item android:title="Inventories">
+            <menu>
+                <group
+                    android:id="@+id/group2"
+                    android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_inventories_all_items"
+                        android:title="@string/nav_inventories_all_items" />
+
+                    <item
+                        android:id="@+id/nav_inventories_inactive_items"
+                        android:title="@string/nav_inventories_inactive_items" />
+
+                    <item
+                        android:id="@+id/nav_inventories_inventory_logs"
+                        android:title="@string/nav_inventories_inventory_logs" />
+                </group>
+
+            </menu>
+
+        </item>
+
+        <item android:title="Orders"
+            android:id="@+id/item2">
+            <menu>
+                <group
+                    android:id="@+id/group3"
+                    android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_orders"
+                        android:title="@string/nav_orders" />
+
+                    <item
+                        android:id="@+id/nav_special_program_orders"
+                        android:title="@string/nav_special_program_orders" />
+
+                    <item
+                        android:id="@+id/nav_problem_order"
+                        android:title="@string/nav_problem_order" />
+
+
+                    <item
+                        android:id="@+id/nav_create_order"
+                        android:title="@string/nav_create_order" />
+
+                    <item
+                        android:id="@+id/nav_filter_order"
+                        android:title="@string/nav_filter_order" />
+                </group>
+            </menu>
+
+
+        </item>
+
+        <item android:title="Reports">
+
+            <menu>
+
+                <group
+                    android:id="@+id/group4"
+                    android:checkableBehavior="single">
+
+                    <!--<menu>-->
+                    <item
+                        android:id="@+id/nav_report_salesby_item"
+                        android:title="@string/nav_report_salesby_item" />
+
+                    <item
+                        android:id="@+id/nav_report_sales_date"
+                        android:title="@string/nav_report_sales_date" />
+
+
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="Billing">
+
+            <menu>
+                <group
+                    android:id="@+id/group5"
+                    android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_billing_invoices"
+                        android:title="@string/nav_billing_invoices" />
+
+
+                    <item
+                        android:id="@+id/nav_billing_fulfilment_services"
+                        android:title="@string/nav_billing_fulfilment_services" />
+
+                    <item
+                        android:id="@+id/nav_billing_shipping"
+                        android:title="@string/nav_billing_shipping" />
+
+
+                    <item
+                        android:id="@+id/nav_billing_report_by_date_range"
+                        android:title="@string/nav_billing_report_by_date_range" />
+
+
+
+
+                </group>
+            </menu>
+        </item>
+
+
+        <item
+            android:id="@+id/nav_customer_details"
+            android:title="@string/nav_customer_details" />
+
+        <item
+            android:id="@+id/nav_offices"
+            android:title="@string/nav_offices" />
+
+        <item
+            android:id="@+id/nav_users"
+            android:title="@string/nav_users" />
+
+        <item
+            android:id="@+id/nav_packages"
+            android:title="@string/nav_packages" />
+
+
+
+        <group  android:checkableBehavior="single"
+            android:id="@+id/groupx">
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/nav_logout" />
+
+            <item
+                android:id="@+id/nav_logout1"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+
+            <item
+                android:id="@+id/nav_logout2"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout3"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout4"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout5"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout6"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout7"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout8"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout9"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout10"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+
+            <item
+                android:id="@+id/nav_logout11"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout12"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+            <item
+            android:id="@+id/nav_logout13"
+            android:title="@string/nav_logout"
+            android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout14"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout15"
+                android:title="@string/nav_logout"
+                android:visible="false"/>
+
+        </group>
+
+
+    </group>
+</menu>

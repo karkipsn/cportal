@@ -1,0 +1,49 @@
+<resources>
+    <string name="title_activity_navigation__watch">Navigation_Watch</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_inventories_deliveries">Deliveries</string>
+    <string name="nav_inventories_deliveries_by_item">Deliveries By Items</string>
+    <string name="nav_inventories_all_items">All Items</string>
+    <string name="nav_inventories_inactive_items">InActive Items</string>
+    <string name="nav_inventories_inventory_logs"> Inventory Logs</string>
+
+    <string name="nav_orders">Orders</string>
+    <string name="nav_special_program_orders">Special Program Orders</string>
+    <string name="nav_problem_order">Problem Order</string>
+    <string name="nav_create_order">Create Order</string>
+    <string name="nav_filter_order">Filter Order</string>
+
+    <string name="nav_report_salesby_item"> Sales By Item</string>
+    <string name="nav_report_sales_date"> Sales Date Range</string>
+
+
+    <string name="special_programs"> Special Programs</string>
+
+    <string name="nav_billing_fulfilment_services"> Fulfilment Services</string>
+    <string name="nav_billing_invoices"> Invoices</string>
+    <string name="nav_billing_report_by_date_range"> Report By Date Range</string>
+    <string name="nav_billing_shipping"> Shipping</string>
+
+    <string name="nav_customer_details"> Customer Details</string>
+    <string name="nav_offices"> Offices</string>
+    <string name="nav_users"> Users</string>
+    <string name="nav_packages"> Packages</string>
+
+    <string name="nav_logout"> Logout</string>
+
+    <dimen name="switch_track_height">30dp</dimen>
+    <dimen name="switch_track_width">25dp</dimen>
+    <dimen name="switch_radius">15dp</dimen>
+    <dimen name="switch_selector_padding">2dp</dimen>
+    <dimen name="switch_stroke_height">0dp</dimen>
+
+
+    <dimen name="switch_thumb_radius">15dp</dimen>
+
+
+</resources>

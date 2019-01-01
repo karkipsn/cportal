@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/all_company_name"
+                android:textColor="@color/blue"
+                android:visibility="visible"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="CREATE"
+                android:layout_margin="2dp"
+                android:id="@+id/btn_all_create"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/null_textview"
+            android:text="No data is available"
+            android:visibility="gone"
+            android:textSize="22sp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
